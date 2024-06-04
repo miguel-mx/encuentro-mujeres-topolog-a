@@ -38,7 +38,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: url(../img/banner-topogeo-xs.png);
+    background-image: url(../img/BANNER-disp-MUJERES-TOPOLOGIA.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -376,7 +376,7 @@ li {
     }
 
     .hero-image {
-        background-image: url(../img/banner-topogeo.png);
+        background-image: url(../img/BANNER-web-MUJERES-TOPOLOGIA.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
