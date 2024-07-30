@@ -369,6 +369,34 @@ li {
     color: #096B68;
 }
 
+.schedule-blue {
+    border-left: #cee1f2 4px solid;
+}
+
+.schedule-purple {
+    border-left: #e6dff7 4px solid;
+}
+
+.schedule-brown {
+    border-left: #c4a68d 4px solid;
+}
+
+.schedule-yellow {
+    border-left: #fde498 4px solid;
+}
+
+.schedule-green {
+    border-left: #bdeda7 4px solid;
+}
+
+.schedule-orange {
+    border-left: #f8ca9b 4px solid;
+}
+
+.schedule-red {
+    border-left: #f89b9e 4px solid;
+}
+
 @media (min-width: 768px) {
 
     .navbar-nav {
