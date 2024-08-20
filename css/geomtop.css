@@ -185,7 +185,8 @@ H1 {
 }
 
 .professor {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 500;
     color: #878787;
     margin-top: 4px;
 }
