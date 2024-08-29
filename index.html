@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" />
     <title>Primer Encuentro de Mujeres en Geometría, Topología y sus Aplicaciones</title>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -131,20 +132,29 @@
                 <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#arocaModal">
                     <div class="justify-content-start"><span class="yellow-circle"><span class="code">P1</span></span></div>
                     <div class="talk">
-                        <div class="title"><i class="bi bi-link-45deg"></i> Fuensanta Aroca</div>
-<!--                        <div class="professor">Fuensanta Aroca</div>-->
+                        <div class="title">Cubrientes ramificados, toros y cierres algebraicos del campo de series <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Fuensanta Aroca</div><div class="university">IM UNAM</div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#manjarrezModal">
                     <div class="justify-content-start"><span class="yellow-circle"><span class="code">P2</span></span></div>
                     <div class="talk">
-                        <div class="title"><i class="bi bi-link-45deg"></i> Fabiola Manjarrez</div>
+                        <div class="title">Descomposiciones de Heegaard <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Fabiola Manjarrez</div><div class="university">IM UNAM Cuernavaca</div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#villanuevaModal">
                     <div class="justify-content-start"><span class="yellow-circle"><span class="code">P3</span></span></div>
                     <div class="talk">
-                        <div class="title"><i class="bi bi-link-45deg"></i> Cristina Villanueva</div>
+                        <div class="title">Una traducción de la topología a la geometría Interpreta: el problema del cuadrado inscrito <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Cristina Villanueva</div><div class="university">CCM UNAM</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -158,7 +168,10 @@
                 <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#estevesModal">
                     <div class="justify-content-start"><span class="yellow-circle"><span class="code">P5</span></span></div>
                     <div class="talk">
-                        <div class="title"> Claudia Esteves</div>
+                        <div class="title">Caminos Tortuosos: la geometría del movimiento en robótica <i class="bi bi-link-45deg"></i> </div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Claudia Esteves</div><div class="university">Universidad de Guanajuato</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -227,6 +240,573 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="estevesModal" tabindex="-1" aria-labelledby="estevesModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="estevesModalLabel">Caminos Tortuosos: la geometría del movimiento en robótica</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Claudia Esteves</strong><br><br>
+                        La planificación de movimientos es una sub-área de la robótica que se ha apoyado fuertemente en
+                        la Geometría y la Topología. En esta charla, exploraremos cómo algunos conceptos de éstas dos
+                        ramas de las Matemáticas se utilizan para modelar entornos, planificar trayectorias y coordinar
+                        movimientos de robots. Veremos algunos algoritmos que han permitido a los robots navegar de manera
+                        eficiente en espacios complejos, evitando obstáculos y adaptándose a cambios en el entorno. Por
+                        último, comentaremos el impacto que estos desarrollos han tenido en diversas áreas como la medicina
+                        y el entretenimiento.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="mt-5">Pláticas Por Solicitud</h1>
+
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#ingridModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">S1</span></span></div>
+                    <div class="talk">
+                        <div class="title">Un teorema sobre la solubilidad del grupo de Rhodes <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Ingrid Carolina Martínez Barahona </div><div class="university">Universidad de El Salvador </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#lorenaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">S2</span></span></div>
+                    <div class="talk">
+                        <div class="title">Enlaces Fuertemente Invertibles y la 3-esfera <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Lorena Armas Sanabria  </div><div class="university">CONAHCYT y Universidad Autónoma del Estado de Morelos </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#adrianaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">S3</span></span></div>
+                    <div class="talk">
+                        <div class="title">¿Es el espacio- tiempo un continuo? <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Adriana García López </div><div class="university">Universidad Autónoma del Estado de México  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#myriamModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">S4</span></span></div>
+                    <div class="talk">
+                        <div class="title">Construcción de un COPO para las Isometrías <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Myriam Hernández Ketchul </div><div class="university">IM UNAM - Unidad Oaxaca</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#sandovalModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">S5</span></span></div>
+                    <div class="talk">
+                        <div class="title">El teorema de Rellich-Kondrashov en variedades diferenciales <i class="bi bi-link-45deg"></i> </div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">María de los Ángeles Sandoval-Romero  </div><div class="university">Departamento de Matemáticas, Facultad de Ciencias, UNAM.  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ingridModal" tabindex="-1" aria-labelledby="ingridModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ingridModalLabel">Un teorema sobre la solubilidad del grupo de Rhodes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Ingrid Carolina Martínez Barahona</strong><br><br>
+                        El grupo de Rhodes es una generalización del grupo fundamental de un espacio topológico que incluye
+                        una acción de grupo. En particular,  estudiaremos el grupo de Rhodes para lazos topológicos. Los
+                        lazos topológicos son son estructuras algebraicas - topológicas no asociativas, para el estudiar
+                        el grupo de Rhodes tomamos el grupo multiplicativo asociado al lazo topológico que se sabe que actúa
+                        como grupo de transformaciones sobre el lazo. El teorema que se demuestra es que si el lazo topológico
+                        es centralmente nilpotente entonces su grupo de Rhodes es soluble.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="lorenaModal" tabindex="-1" aria-labelledby="lorenaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lorenaModalLabel">Enlaces Fuertemente Invertibles y la 3-esfera</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Lorena Armas Sanabria</strong><br><br>
+                        Sea P(3) el grupo de 3-trenzas puras, y sea L(3) el conjunto de enlaces obtenidos como cerraduras
+                        de estas trenzas. En un trabajo anterior, titulado "The Hexatangle", consideramos una subfamilia
+                        de enlaces en L(3) y determinamos en cuáles de estos hay una cirugía de Dehn que produce la 3-esfera.
+                        Lo anterior se realizó usando el hecho de que estos enlaces son fuertemente invertibles y usando
+                        cubiertas dobles ramificadas y la teoría de ovillos. En esta plática  presentaré una extensión de
+                        este resultado para otra familia de enlaces fuertemente invertibles contenida en L(3).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="adrianaModal" tabindex="-1" aria-labelledby="adrianaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="adrianaModalLabel">¿Es el espacio- tiempo un continuo?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Adriana García López</strong><br><br>
+                        El concepto base de la teoría de la relatividad es conocido como espacio-tiempo. Una versión moderna
+                        de esta teoría define al espacio-tiempo como una variedad topológica diferenciable con un atlas
+                        suave y una conexión torsión libre compatible con un tensor métrico lorentziano, y una orientación
+                        temporal que satisface las ecuaciones de Einstein. Partiendo de esta definición, analizaremos si
+                        el espacio-tiempo satisface las propiedades de ser un continuo. Discutiremos las consecuencias de
+                        la compacidad de estos espacios y de la necesidad de que sean conexos, también abordaremos las
+                        condiciones físicas necesarias que deben cumplir los espacios-tiempo para que sean espacios métricos
+                        y en el caso en que no se pueda dar una métrica a estos espacios estudiaremos su relación con los
+                        continuos de Hausdorff, dando una interpretación física a los axiomas de separación T0, T1 y T2.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myriamModal" tabindex="-1" aria-labelledby="myriamModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myriamModalLabel">Construcción de un COPO para las Isometrías</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Myriam Hernández Ketchul</strong><br><br>
+                        Motivadas por el trabajo realizado por Cóxeter, podemos pensar en las isometrías del espacio como
+                        palabras y buscar un orden para ellas. Dado que las isometrías las podemos escribir como producto
+                        de reflexiones pero esa expresión no es única, deberemos buscar otras estructuras algebraicas que
+                        nos permitan identificar y dar orden a las isometrías, es así como construimos el COPO modelo que
+                        será el objeto principal de esta ponencia.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="sandovalModal" tabindex="-1" aria-labelledby="sandovalModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="sandovalModalLabel">El teorema de Rellich-Kondrashov en variedades diferenciales</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>María de los Ángeles Sandoval-Romero</strong><br><br>
+                        El teorema de Rellich-Kondrashov es un importante teorema de ánálisis de encajes entre espacios de
+                        Sobolev que se aplica para encontrar soluciones a ecuaciones diferenciales parciales. Fue nombrado
+                        así en honor a los matemáticos  Franz Rellich y Vladimir Iosifovich Kondrashov. El caso del teorema
+                        en variedades riemannianas tiene una riqueza geométrica muy interesante y pocas veces es abordado
+                        con todo el formalismo de geometría riemanniana y análisis matemático necesario para una completa
+                        comprensión. Se tratará de una plática panorámica en la que también abordaré algunas aplicaciones.
+                        Finalmente debo mencionar que este trabajo es un trabajo conjunto con el Mtro. en Ciencias Carlos
+                        Daniel Velazquez Mendoza, quien es uno de mis estudiantes del programa de Doctorado en Ciencias
+                        Matemáticas de la UNAM.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="mt-5">Posters</h1>
+
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#jessicaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T1</span></span></div>
+                    <div class="talk">
+                        <div class="title">Transformaciones de Möbius y el grupo propio de Lorentz <i class="bi bi-link-45deg"></i> </div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Jessica Rubí Arias Cruz </div><div class="university">Facultad de Ciencias, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#karlaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T2</span></span></div>
+                    <div class="talk">
+                        <div class="title">Sobre el grupo de transformaciones de Möbius <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Karla Esthela Flores López  </div><div class="university">Facultad de Ciencias, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#danielaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T3</span></span></div>
+                    <div class="talk">
+                        <div class="title">Politopos convexos y polinomios de Ehrhart <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-">
+                            <div class="professor">Daniela Colmenares Sierra </div><div class="university">IM, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#gabrielaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T4</span></span></div>
+                    <div class="talk">
+                        <div class="title">Cómputo cuántico: explorando grassmanianos con transformaciones tipo boost <i class="bi bi-link-45deg"></i> </div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Ana Gabriela Flores Delgado </div><div class="university">Instituto de Ciencias Nucleares, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#valeModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T5</span></span></div>
+                    <div class="talk">
+                        <div class="title">Representación estelar de Majorana: Una mirada geométrica a los estados cuánticos de espín <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Valentina Rascón Barajas </div><div class="university">Instituto de Ciencias Nucleares, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#ariadnaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T6</span></span></div>
+                    <div class="talk">
+                        <div class="title">El teorema KKMS politopal y sus aplicaciones en teoría de transversales <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Ariadna Olvera Sampieri  </div><div class="university">IM, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#nicolModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T7</span></span></div>
+                    <div class="talk">
+                        <div class="title">Explorando la política: Una visión con complejos simpliciales <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Nicol Daniela Bermudez Bohorquez </div><div class="university">Universidad Distrital Francisco José de Caldas </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#luisaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T8</span></span></div>
+                    <div class="talk">
+                        <div class="title">Sobre los cerrados regulares de un espacio topológico <i class="bi bi-link-45deg"></i> </div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Luisa Fernanda Rozo Posada </div><div class="university">Universidad Nacional de Colombia - Universidad ECCI </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#lizbethModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T9</span></span></div>
+                    <div class="talk">
+                        <div class="title"> Enseñanza del Análisis Matemático a través de un blog. <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Lizbeth Fernández Villegas  </div><div class="university">Facultad de Ciencias, UNAM </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#cynthiaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">T10</span></span></div>
+                    <div class="talk">
+                        <div class="title">Nudos en las matemáticas <i class="bi bi-link-45deg"></i> </div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Cynthia Guerrero Vargas </div><div class="university">Universidad Autónoma del Estado Morelos </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="jessicaModal" tabindex="-1" aria-labelledby="jessicaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="jessicaModalLabel">Transformaciones de Möbius y el grupo propio de Lorentz</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Jessica Rubí Arias Cruz </strong><br><br>
+                        El presente cartel presenta el trabajo de Tesis para obtener el título de Matemática, en el cual
+                        tiene por objetivo demostrar la relación entre las transformaciones de Möbius (o transformaciones
+                        fraccionales lineales) las cuales están definidas en el plano complejo extendido, y el grupo propio
+                        de Lorentz (el cual es un subgrupo del grupo de Lorentz), el cual consta de todas las transformaciones
+                        de Lorentz del espacio de Minkowski, utilizando propiedades geométricas de la esfera de Riemann.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="karlaModal" tabindex="-1" aria-labelledby="karlaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="karlaModalLabel">Sobre el grupo de transformaciones de Möbius</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Karla Esthela Flores López  </strong><br><br>
+                        Una transformación de Möbius es una función de la esfera \(S^{1}\) asociada al plano complejo extendido,
+                        de la forma:
+                        $$T(z) = az+b/cz+d$$
+                        Dicha transformación se ve como la composición finita de reflexiones en el espacio euclidiano.
+                        El objetivo general del trabajo que se desarrolla es estudiar este tipo de transformaciones sobre
+                        el espacio euclideano; ya que una transformación de Möbius es conformal, es decir, preserva ángulos
+                        y orientación.<br><br>
+                        Para ello se requiere estudiar todas y cada una de sus propiedades, las cuales se dividen en analíticas,
+                        algebraicas y geométricas; cada una de ellas es esencial para la comprensión y manejo de este tipo
+                        de transformaciones permitiéndonos conocer mejor su estructura; ya que no solo nos permite trabajar
+                        de manera abstracta, sino también se pueden llevar a alguna aplicación.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="danielaModal" tabindex="-1" aria-labelledby="danielaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="danielaModalLabel">Politopos convexos y polinomios de Ehrhart </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Daniela Colmenares Sierra </strong><br><br>
+                        Los politopos son objetos geométricos fundamentales dentro de la matemática, con cualidades combinatorias
+                        destacadas que han sido exploradas a lo largo de los años. A lo largo de nuestra historia, una gran
+                        variedad de civilizaciones antiguas y grandes matemáticos modernos han dedicado tiempo a la observación
+                        y análisis de estos cuerpos, encontrando en ellos la belleza de su complejidad en la sencillez de
+                        su intuición geométrica.
+                        <br><br>
+                        Inicialmente, se presenta una contextualización del objeto central a través de los conjuntos convexos
+                        y los espacios afines. Posteriormente, se establece la definición de politopo convexo a través de
+                        sus dos enfoques principales y se enuncian algunas de sus propiedades. Asimismo, se analiza la
+                        estructura de los politopos mediante sus caras, lo que permite visualizar su comportamiento reticular
+                        y su esqueleto combinatorio. Finalmente, se estudia en detalle un problema de conteo en combinatoria
+                        asociado al número de puntos reticulares en dilataciones por factores enteros positivos de cualquier
+                        politopo entero, ilustrando así una aplicación directa de la geometría en la combinatoria.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="gabrielaModal" tabindex="-1" aria-labelledby="gabrielaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="gabrielaModalLabel">Cómputo cuántico: explorando grassmanianos con transformaciones tipo boost</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Ana Gabriela Flores Delgado </strong><br><br>
+                        Ante la gran importancia que ha adquirido la computación cuántica en el escenario científico mundial,
+                        uno de sus más grandes desafíos es el de generar protocolos de computo cuántico inmunes tanto al
+                        ruido experimental como al ruido inherente a la naturaleza cuántica de los sistemas. Nosotros nos
+                        enfocamos en este segundo aspecto a través de la propuesta conocida como cómputo cuántico toponómico
+                        [Modern Physics Letters A 37(27), (2022)], basada en las propiedades geométricas del espacio de
+                        estados cuánticos y en el uso de fases geométricas no abelianas que aparecen de manera natural al
+                        hacer evolucionar ciertos subespacios vectoriales (k-planos).<br><br>
+                        En esta charla quiero presentar algunos de nuestros principales resultados sobre la descripción
+                        geométrica de los k-planos idóneos para conformar compuertas cuánticas lógicas, mediante la llamada
+                        propiedad de anticoherencia y su generalización, la t-anticoherencia. Principalmente les hablaré
+                        de un método novedoso que nos permite transformar 1-planos (estados) generales en 1-planos anticoherentes
+                        mediante aplicaciones sucesivas de boost lorentzianos infinitesimales en el espacio proyectivo asociado
+                        al espacio de Hilbert del estado, y después veremos cómo esto puede generalizarse para construir
+                        k-planos t-anticoherentes mediante la aplicación sucesiva de "t-boost" en el grassmaniano correspondiente.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="valeModal" tabindex="-1" aria-labelledby="valeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="valeModalLabel">Representación estelar de Majorana: Una mirada geométrica a los estados cuánticos de espín. </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Valentina Rascón Barajas</strong><br><br>
+                        En las últimas décadas, ha sido comprobada la utilidad del estudio de la mecánica cuántica desde
+                        un punto de vista geométrico, en lugar de la perspectiva algebraica tradicional.
+                        <br><br>
+                        Una de las herramientas principales para el estudio de sistemas cuánticos desde una perspectiva
+                        geométrica es la Representación estelar de Majorana, propuesta en 1932 por Ettore Majorana, basada
+                        en una relación 1 a 1 entre estados cuánticos de espín-s y polinomios complejos de grado 2s, cuyas
+                        raíces pueden ser mapeadas a la esfera unitaria a través de la proyección estereográfica.
+                        <br><br>
+                        Gracias a este enfoque es posible visualizar algunas propiedades físicas de los sistemas, tales
+                        como su coherencia o sus simetrías rotacionales, las cuales a su vez revelan información sobre su
+                        valor de expectación de ciertos observables.
+                        <br><br>
+                        Estos resultados tienen aplicaciones atractivas en áreas como el cómputo cuántico, ya que se ha
+                        mostrado que ciertas fases geométricas de sistemas representados por planos en el espacio de Hilbert,
+                        pueden dar lugar a compuertas lógicas atractivamente resilientes a ciertos tipos de perturbaciones.
+                        <br><br>
+                        En esta charla expondré la representación estelar de Majorana y su generalización para planos en
+                        el espacio de Hilbert [Communications in Mathematical Physics, (2021), 735-764, 381(2)]. Posteriormente
+                        mostraré algunas aplicaciones de esta representación en el estudio de la topología del espacio de
+                        estados cuánticos y de la relación entre distintas propiedades cuánticas como la anticoherencia
+                        y el enredamiento, ambos sumamente utilizados en el contexto del cómputo cuántico.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ariadnaModal" tabindex="-1" aria-labelledby="ariadnaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ariadnaModalLabel">El teorema KKMS politopal y sus aplicaciones en teoría de transversales </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Ariadna Olvera Sampieri  </strong><br><br>
+                        El teorema de Knaster-Kuratowski-Mazurkiewicz (KKM) es un resultado fundamental en topología y
+                        análisis convexo. Este teorema establece condiciones bajo las cuales se garantiza la existencia
+                        de un punto en la intersección de una cubierta específica de cerrados en un simplejo n-dimensional.
+                        Es equivalente a otros resultados en combinatoria y topología algebraica, como el lema de Sperner
+                        y el teorema del punto fijo de Brouwer. También tiene diversas aplicaciones en la resolución de
+                        problemas tipo Helly y teoría de transversales.<br><br>
+                        Existen varias generalizaciones de este teorema. Entre ellas, el teorema KKMS propuesto por Lloyd
+                        Shapley, generaliza el teorema KKM en el contexto de economía y juegos cooperativos. Introduce
+                        conceptos como el balanceo combinatorio y se generaliza la cubierta de cerrados del n-simplejo.
+                        El teorema KKMS politopal es una generalización del teorema KKMS propuesta por Komiya en polítopos
+                        compactos convexos en \(\mathbb{R}^n\).<br><br>
+                        En la presente ponencia hablaremos sobre el teorema KKMS y sus distintas versiones y mencionaremos
+                        cómo realizamos, como parte de trabajo de tesis de maestría, la demostración explícita del teorema
+                        KKMS politopal, la cual Komiya sugiere de manera implícita en su artículo, así como la versión del
+                        teorema con una cubierta abierta, usando únicamente la normalidad de \(\mathbb{R}^n\).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="nicolModal" tabindex="-1" aria-labelledby="nicolModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="nicolModalLabel">Explorando la política: Una visión con complejos simpliciales.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Nicol Daniela Bermudez Bohorquez </strong><br><br>
+                        Los complejos simpliciales, como un ejemplo particular de un espacio topológico, ofrecen una visión
+                        diferente para entender las dinámicas en estructuras políticas y sociales. Estos complejos son
+                        construcciones matemáticas que representan conjuntos de elementos llamados símplices, los cuales
+                        pueden utilizarse para modelar relaciones entre actores como partidos políticos, legisladores o
+                        votantes. Al aplicar la teoría de los complejos simpliciales se logra comprender y representar las
+                        dinámicas políticas contemporáneas, ofreciendo así una alternativa matemática para la representación de estas.<br><br>
+                        En este trabajo realizamos la representación de una estructura política formada por cinco de los
+                        candidatos electorales a la Alcaldía de Bogotá 2023 evaluándolos en cuatro ejes de interés (Género,
+                        Transporte, Salud y Educación) mediante el procesamiento del lenguaje natural enfocado en el análisis
+                        y la minería de textos. Con este enfoque construimos complejos simpliciales mediante el método de
+                        Vietoris-Rips, generando una representación matemática que permite analizar las relaciones existentes
+                        entre los planes de gobierno y la posibilidad de colaboración entre los agentes de dichas estructuras políticas.
+                        Con lo anterior, proponemos un método para construir complejos simpliciales, complementando las
+                        metodologías usuales, de tal forma que los complejos construidos permitan explicar las interacciones
+                        entre diferentes estructuras políticas.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="luisaModal" tabindex="-1" aria-labelledby="luisaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="luisaModalLabel">Sobre los cerrados regulares de un espacio topológico</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Luisa Fernanda Rozo Posada </strong><br><br>
+                        En esta charla exploraremos algunos resultados sobre los conjuntos cerrados regulares de un espacio
+                        topológico, así como su correlación con los abiertos regulares a partir de un par adjunto de funciones,
+                        y la relación de estos conjuntos con los espacios regulares. Finalmente, se presentará la estructura
+                        de retículo de los cerrados regulares y como resultado principal de la charla, el isomorfismo de
+                        este retículo con los retículos de Boole completos.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="lizbethModal" tabindex="-1" aria-labelledby="lizbethModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lizbethModalLabel">Enseñanza del Análisis Matemático a través de un blog.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Lizbeth Fernández Villegas  </strong><br><br>
+                        Los términos de topología suelen representar dificultad al entenderse. El proceso mental sigue
+                        abstracciones a través de dibujos que el docente traza en el pizarrón. En los libros, en cambio,
+                        los dibujos son casi inexistentes. En la sección de Análisis Matemático I del blog de Leo se muestran
+                        notas que intentan representar gráficamente, todos los conceptos de la topología en espacios métricos.
+                        El objetivo de la exposición será incentivar en el uso de recursos computacionales para sostener
+                        las ideas de abstracción y facilitar su comprensión.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="cynthiaModal" tabindex="-1" aria-labelledby="cynthiaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cynthiaModalLabel">Nudos en las matemáticas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Cynthia Guerrero Vargas </strong><br><br>
+                        A lo largo de la historia, el ser humano ha usado a los nudos como un objeto necesario para la
+                        fabricación de herramientas. También han sido útiles para una diversidad de actividades sociales
+                        y políticas. En particular, han sido muy importantes para el desarrollo de la ciencia. En las matemáticas,
+                        los nudos son objeto muy importante. Exploraremos el mundo de los nudos a partir de algunos conceptos
+                        básicos sobre nudos y nos adentraremos en el problema de como clasificarlos. En particular,
+                        hablaremos de las movidas de Reidemeister, el concepto de invariante de nudo y la tricoloreabilidad.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h1 class="mt-5">Matemática Atenagórica</h1>
+
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#atenaModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">M1</span></span></div>
+                    <div class="talk">
+                        <div class="title">Un enfoque de la Computación Cuántica desde la Topología de Nudos <i class="bi bi-link-45deg"></i></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Maria del Pilar Ramos Huila </div><div class="university">Centro de Ciencias Matemáticas, UNAM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="atenaModal" tabindex="-1" aria-labelledby="atenaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="atenaModalLabel">Un enfoque de la Computación Cuántica desde la Topología de Nudos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Maria del Pilar Ramos Huila  </strong><br><br>
+                        El estudio de partículas subatómicas a lo largo de la historia del conocimiento científico de la
+                        naturaleza, ha sido fortalecido por el desarrollo tecnológico del siglo pasado, creando un formalismo
+                        matemático contundente para la descripción de los fenómenos contra intuitivos del mundo microscópico.
+                        Junto al estímulo dialéctico por la concreción y aplicación de tales resultados teóricos en la actividad
+                        humada de realizar cálculos, o resolver problemas hasta el momento insolubles por las actuales
+                        supercomputadoras, como el problema de factorización, se plantea y desarrolla la computación cuántica,
+                        que matemáticamente presenta potentes posibilidades frente a la computación clásica. Así que llamamos
+                        qubit, a la unidad mínima de información cuántica, frente al bit de los sistemas de transmisión de
+                        información clásicos. Sin embargo, se presentan grandes retos a los científicos en su implementación
+                        física, como por ejemplo, el ruido, el cual se ha mitigado en los sistemas clásicos, pero afecta
+                        fuertemente a los qubits. Entre admirables ideas, se encuentra la del qubit topológico, basado en
+                        un tipo de partículas llamadas aniones 2 dimensionales, que al avanzar en el espacio-tiempo crean
+                        nudos, y se utiliza la topología de estos para hacer cálculos, con diferentes ventajas, entre ellas:
+                        la protección topológica al ruido, tanto de los qubits como de las compuertas u operaciones. En esta
+                        charla, introduciremos los conceptos de computación cuántica principales y de los nudos que nos
+                        permiten comprender acerca de la computación cuántica topológica.
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <h1 class="mt-5">Programa</h1>
 
@@ -252,7 +832,7 @@
                 <div class="schedule-day d-flex flex-column">
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">09:30 - 10:30</div>
-                        <div class="schedule-talk mb-3 schedule-purple" data-bs-toggle="modal" data-bs-target="#">
+                        <div class="schedule-talk mb-3 schedule-purple" data-bs-toggle="modal" data-bs-target="#arocaModal">
                             <div class="schedule-title">Plenaria</div>
                             <div class="schedule-professor">Fuensanta Aroca</div>
                         </div>
@@ -271,8 +851,9 @@
                     </div>
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">12:00 - 13:00</div>
-                        <div class="schedule-talk mb-3 schedule-green">
+                        <div class="schedule-talk mb-3 schedule-green" data-bs-toggle="modal" data-bs-target="#atenaModal">
                             <div class="schedule-title">Matemática Atenagórica</div>
+                            <div class="schedule-professor">Maria del Pilar Ramos Huila</div>
                         </div>
                     </div>
                     <div class="schedule-event d-flex flex-row">
@@ -283,8 +864,9 @@
                     </div>
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">15:00 - 15:30</div>
-                        <div class="schedule-talk mb-3 schedule-orange" data-bs-toggle="modal" data-bs-target="#">
-                            <div class="schedule-title">Plática por solicitud</div>
+                        <div class="schedule-talk mb-3 schedule-orange" data-bs-toggle="modal" data-bs-target="#ingridModal">
+                            <div class="schedule-title">S1 - Un teorema sobre la solubilidad del grupo de Rhodes</div>
+                            <div class="schedule-professor">Ingrid Carolina Martínez Barahona</div>
                         </div>
                     </div>
                     <div class="schedule-event d-flex flex-row">
@@ -319,14 +901,16 @@
                     </div>
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">11:00 - 11:30</div>
-                        <div class="schedule-talk mb-3 schedule-orange" >
-                            <div class="schedule-title">Plática por solicitud</div>
+                        <div class="schedule-talk mb-3 schedule-orange" data-bs-toggle="modal" data-bs-target="#lorenaModal">
+                            <div class="schedule-title">S2 - Enlaces Fuertemente Invertibles y la 3-esfera</div>
+                            <div class="schedule-professor">Lorena Armas Sanabria</div>
                         </div>
                     </div>
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">11:30 - 12:00</div>
-                        <div class="schedule-talk mb-3 schedule-orange" >
-                            <div class="schedule-title">Plática por solicitud</div>
+                        <div class="schedule-talk mb-3 schedule-orange" data-bs-toggle="modal" data-bs-target="#adrianaModal">
+                            <div class="schedule-title">S3 - ¿Es el espacio- tiempo un continuo?</div>
+                            <div class="schedule-professor">Adriana García López</div>
                         </div>
                     </div>
                     <div class="schedule-event d-flex flex-row">
@@ -343,8 +927,9 @@
                     </div>
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">15:00 - 15:30</div>
-                        <div class="schedule-talk mb-3 schedule-orange">
-                            <div class="schedule-title">Plática por solicitud</div>
+                        <div class="schedule-talk mb-3 schedule-orange" data-bs-toggle="modal" data-bs-target="#myriamModal">
+                            <div class="schedule-title">S4 - Construcción de un COPO para las Isometrías</div>
+                            <div class="schedule-professor">Myriam Hernández Ketchul</div>
                         </div>
                     </div>
                     <div class="schedule-event d-flex flex-row">
@@ -385,8 +970,9 @@
                     </div>
                     <div class="schedule-event d-flex flex-row">
                         <div class="schedule-time">11:30 - 12:00</div>
-                        <div class="schedule-talk mb-3 schedule-orange">
-                            <div class="schedule-title">Plática por solicitud</div>
+                        <div class="schedule-talk mb-3 schedule-orange" data-bs-toggle="modal" data-bs-target="#sandovalModal">
+                            <div class="schedule-title">S5 - El teorema de Rellich-Kondrashov en variedades diferenciales</div>
+                            <div class="schedule-professor">María de los Ángeles Sandoval-Romero</div>
                         </div>
                     </div>
                     <div class="schedule-event d-flex flex-row">
